@@ -1,44 +1,43 @@
+// components/Section.jsx
 import Discuss from "../assets/images/discuss.png";
+
 export default function Section() {
   return (
     <>
       <section
         id="discover"
-        className="w-full h-full flex md:flex-row flex-col p-5 mt-10 gap-0 md:gap-5"
+        className="w-full max-w-6xl mx-auto h-full flex flex-col md:flex-row p-5 mt-20 gap-10 md:gap-5"
       >
-        <div className="w-full h-96 flex items-center justify-center">
-          <img src={Discuss} alt="" className="w-96 " />
+        <div className="w-full md:w-1/2 flex items-center justify-center order-2 md:order-1">
+          <img src={Discuss} alt="Team discussion" className="w-full max-w-md" />
         </div>
-        <div className="w-full h-96 flex flex-col items-center relative bottom-24 md:bottom-0 md:static justify-center">
-          <h2 className="font-semibold text-2xl text-slate-900">
-            Let's Discuss about you Project
+        <div className="w-full md:w-1/2 flex flex-col justify-center order-1 md:order-2">
+          <h2 className="font-semibold text-2xl md:text-3xl text-slate-900">
+            Let's Discuss about your Project
           </h2>
-          <p className="text-justify md:w-[500px] w-full mt-3 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            magnam commodi voluptates maxime eius repellendus temporibus ea
-            quisquam illum officia, amet dolor fuga? Voluptates aspernatur eum
-            quia corporis maxime libero!
+          <p className="mt-4 text-gray-600">
+            Our team of experts is ready to collaborate with you to bring your ideas to life. 
+            We'll work closely with you to understand your vision and create a tailored solution 
+            that meets your business objectives.
           </p>
         </div>
       </section>
-      <div className="md:w-[800px] w-[300px] border-b-2 mx-auto md:static md:bottom-0 relative bottom-16 border-black/20 mb-5"></div>
-      <section
-        id="discover"
-        className="w-full h-full flex md:flex-row md:static md:bottom-0 relative bottom-20 flex-col p-5 md:mt-10 gap-0 md:gap-5"
-      >
-        <div className="w-full h-96 flex flex-col  items-center  md:static justify-center">
-          <h2 className="font-semibold text-2xl text-slate-900">
-            Lorem ipsum dolor sit amet.
+      
+      <div className="w-full max-w-4xl border-b-2 mx-auto border-black/20 my-16"></div>
+      
+      <section className="w-full max-w-6xl mx-auto h-full flex flex-col md:flex-row p-5 gap-10 md:gap-5">
+        <div className="w-full md:w-1/2 flex flex-col justify-center">
+          <h2 className="font-semibold text-2xl md:text-3xl text-slate-900">
+            Cutting-Edge Technology Solutions
           </h2>
-          <p className="text-justify md:w-[500px]  w-full mt-3 font-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            magnam commodi voluptates maxime eius repellendus temporibus ea
-            quisquam illum officia, amet dolor fuga? Voluptates aspernatur eum
-            quia corporis maxime libero!
+          <p className="mt-4 text-gray-600">
+            We leverage the latest technologies to build scalable and efficient systems. 
+            From modern frontend frameworks to robust backend architectures, we ensure 
+            your digital product is built to last and perform.
           </p>
         </div>
-        <div className="w-full h-96 flex items-center relative bottom-24 md:bottom-0 justify-center">
-          <img src={Discuss} alt="" className="w-96 " />
+        <div className="w-full md:w-1/2 flex items-center justify-center">
+          <img src={Discuss} alt="Technology" className="w-full max-w-md" />
         </div>
       </section>
     </>
