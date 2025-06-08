@@ -38,7 +38,7 @@ export default function Section() {
           </p>
         </div>
         <div className="w-full h-96 flex items-center relative bottom-24 md:bottom-0 justify-center">
-          <img src={Discuss} alt="" className="w-96 bg-red-500" />
+          <img src={Discuss} alt="" className="w-96 " />
         </div>
       </section>
     </>
