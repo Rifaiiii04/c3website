@@ -9,5 +9,6 @@ body {
   font-family: "Poppins", sans-serif;
   @apply bg-white;
   @apply text-slate-800;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  overflow: hidden;
 }

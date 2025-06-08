@@ -6,7 +6,7 @@ import Benefits from "../components/Benefits";
 export default function Home() {
   return (
     <>
-      <section className="w-full h-auto ">
+      <section className="w-full h-auto overflow-hidden">
         <div className="w-full h-full relative">
           <div className="absolute top-0 left-0 w-screen md:w-full h-[450px] md:h-[590px] rounded-b-4xl bg-gradient-to-t from-blue-800 to-blue-800/80"></div>
           <img
