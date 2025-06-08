@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="w-full z-50 fixed p-3">
+      <nav className="md:w-full w-[360px] z-50 fixed p-3">
         <div className="bg-white shadow-md hover:shadow-xs hover:shadow-blue-500 transition-all duration-500 mt-2 fixed top-0 left-1/2 transform -translate-x-1/2 rounded-full flex w-[350px] md:w-[600px] px-4 py-1 justify-between items-center">
           <div className="flex items-center">
             <img src="/icon.png" alt="" className="w-8 h-8" />
