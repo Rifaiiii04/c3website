@@ -10,5 +10,5 @@ body {
   @apply bg-white;
   @apply text-slate-800;
   overflow-x: hidden;
-  overflow: hidden;
+
 }
