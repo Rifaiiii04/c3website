@@ -19,9 +19,9 @@ Website resmi untuk komunitas Code Circle Community (C3), dibangun menggunakan R
 2. Jalankan `npm install` untuk menginstal dependensi
 3. Jalankan `npm run dev` untuk memulai server pengembangan
 
-## Lisensi
+<!-- ## Lisensi
 
-Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk informasi lebih lanjut. -->
 
 ---
 
