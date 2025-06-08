@@ -14,7 +14,7 @@ export default function Home() {
           <img
             src={HeroSection}
             alt=""
-            className="w-full h-[450px] md:h-[590px] rounded-b-4xl object-cover" // Ganti w-screen menjadi w-full
+            className="w-full h-[450px] md:h-[590px] rounded-b-4xl object-cover"
           />
         </div>
         <div className="absolute md:top-64 top-56 w-full max-w-[90vw] md:max-w-[560px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
@@ -37,7 +37,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Card section */}
         <div className="w-full max-w-[95vw] mx-auto h-full md:h-52 md:flex-row flex-col relative md:-top-14 -top-10 flex flex-wrap items-center justify-center gap-5 md:gap-10">
           <CardSection
             title="Web Development"
