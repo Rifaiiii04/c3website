@@ -1,12 +1,28 @@
-# React + Vite
+# Code Circle Community Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website resmi untuk komunitas Code Circle Community (C3), dibangun menggunakan React, Vite, dan Tailwind CSS.
 
-Currently, two official plugins are available:
+> **Catatan:** Project ini masih dalam tahap pengembangan. Fitur dan tampilan dapat berubah sewaktu-waktu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur
 
-## Expanding the ESLint configuration
+- Landing page responsif dengan desain modern
+- Navigasi dinamis dan mobile-friendly
+- Komponen modular (Navbar, Footer, Card, Section, Benefits)
+- Integrasi ikon Remixicon
+- Custom font Poppins
+- Animasi dan efek interaktif pada elemen UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Instalasi
+
+1. Clone repositori ini
+2. Jalankan `npm install` untuk menginstal dependensi
+3. Jalankan `npm run dev` untuk memulai server pengembangan
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk informasi lebih lanjut.
+
+---
+
+Dibuat dengan ❤️ oleh Code Circle Community
