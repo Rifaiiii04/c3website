@@ -24,7 +24,6 @@ export default function Navbar() {
           <img src="/icon.png" alt="Logo" className="w-8 h-8" />
         </div>
         
-        {/* Desktop Menu */}
         <ul className="hidden md:flex items-center justify-center gap-10 text-xs px-3 py-2">
           {['Home', 'About Us', 'Testimoni', 'Price'].map((item) => (
             <li key={item} className="hover:text-blue-500 group transition-colors duration-300">
@@ -33,8 +32,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        
-        {/* Mobile Menu Button */}
+
         <div className="flex items-center gap-4">
           <a
             href="#"
@@ -52,7 +50,6 @@ export default function Navbar() {
         </div>
       </div>
       
-      {/* Mobile Menu */}
       <div className={`md:hidden bg-white shadow-lg absolute top-full left-0 w-full transition-all duration-300 overflow-hidden ${show ? 'max-h-96' : 'max-h-0'}`}>
         <ul className="py-3 px-4 space-y-3">
           {['Home', 'About Us', 'Testimoni', 'Price'].map((item) => (
