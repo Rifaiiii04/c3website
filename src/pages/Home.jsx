@@ -6,16 +6,17 @@ import Benefits from "../components/Benefits";
 export default function Home() {
   return (
     <>
-      <section className="w-full h-auto ">
+      <section className="w-full h-auto overflow-x-hidden">
         <div className="w-full h-full relative">
-          <div className="absolute top-0 left-0 w-96 md:w-full h-[450px] md:h-[590px] rounded-b-4xl bg-gradient-to-t from-blue-800 to-blue-800/80"></div>
+          <div className="absolute top-0 left-0 w-full h-[300px] md:h-[590px] rounded-b-4xl bg-gradient-to-t from-blue-800 to-blue-800/80"></div>
           <img
             src={HeroSection}
             alt=""
-            className="w-96 md:w-full h-[450px] md:h-[590px] rounded-b-4xl object-cover"
+            className="w-full h-[300px] md:h-[590px] object-cover rounded-b-4xl"
+            style={{ maxWidth: "100vw" }}
           />
         </div>
-        <div className="absolute md:top-64 top-56 w-96 md:w-[560px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+        <div className="absolute md:top-64 top-40 w-11/12 max-w-md md:w-[560px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-2">
           <h1 className="md:text-4xl text-xl">
             We provide the best <span className="font-semibold">Solution</span>
           </h1>
