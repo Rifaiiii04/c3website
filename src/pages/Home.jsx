@@ -3,11 +3,14 @@ import HeroSection from "../assets/images/herosection.png";
 import CardSection from "../components/Cardsection";
 import Section from "../components/Section";
 import Benefits from "../components/Benefits";
+import TestiCard from "../components/TestiCard";
+import testimonials from "../data/TestiData";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       {" "}
+      {/* Hero section */}
       <section className="w-full h-auto">
         <div className="w-full h-full relative">
           <div className="absolute top-0 left-0 w-full h-[450px] md:h-[590px] rounded-b-4xl bg-gradient-to-t from-blue-800 to-blue-800/80"></div>
@@ -37,6 +40,7 @@ export default function Home() {
           </a>
         </div>
 
+        {/* card sectionn */}
         <div className="w-full max-w-[95vw] mx-auto h-full md:h-52 md:flex-row flex-col relative md:-top-14 -top-10 flex flex-wrap items-center justify-center gap-5 md:gap-10">
           <CardSection
             title="Web Development"
@@ -55,9 +59,32 @@ export default function Home() {
           />
         </div>
       </section>
+      {/* section kedua */}
       <Section />
+      {/* benefit */}
       <section className="w-full h-full pb-10 bg-blue-800 flex items-center justify-center">
         <Benefits />
+      </section>
+      {/* testi */}
+      <section className="w-full h-full  mt-10 p-3 px-14">
+        <div className=" flex flex-col items-center justify-center">
+          <h1 className="text-2xl font-bold">What do They Say</h1>
+          <p className="text-sm font-extralight text-gray-600 mt-2">
+            Testimonials from our satisfied clients
+          </p>
+        </div>
+        <div className="w-full h-full flex md:flex-row flex-col items-center justify-center gap-10 px-3 relative bottom-0 mb-5 mt-5">
+          {testimonials.slice(0,3).map((testi, index) => (
+            <TestiCard
+              key={index}
+              name={testi.name}
+              img={testi.img}
+              comment={testi.comment}
+              rating={testi.rating}
+              date={testi.date}
+            />
+          ))}
+        </div>
       </section>
     </div>
   );
