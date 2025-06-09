@@ -69,7 +69,7 @@ export default function Home() {
       <section className="w-full h-full  mt-10 p-3 px-14">
         <div className=" flex flex-col items-center justify-center">
           <h1 className="text-2xl font-bold">What do They Say</h1>
-          <p className="text-sm font-extralight text-gray-600 mt-2">
+          <p className="text-xs font-extralight text-gray-600 mt-2">
             Testimonials from our satisfied clients
           </p>
         </div>
